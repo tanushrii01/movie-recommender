@@ -1,0 +1,272 @@
+[
+  {
+    "category": "Not Cyberbullying",
+    "input_text": "Had an amazing weekend with family! Blessed and thankful <3",
+    "token_count": 12,
+    "wordpiece_tokens": [
+      "had",
+      "an",
+      "amazing",
+      "weekend",
+      "with",
+      "family",
+      "!",
+      "blessed",
+      "and",
+      "thankful",
+      "<",
+      "3"
+    ],
+    "input_ids_first_12": [
+      101,
+      2018,
+      2019,
+      6429,
+      5353,
+      2007,
+      2155,
+      999,
+      10190,
+      1998,
+      18836,
+      1026
+    ],
+    "attention_mask_first_12": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "special_tokens": {
+      "[CLS] id": 101,
+      "[SEP] id": 102,
+      "[PAD] id": 0,
+      "[UNK] id": 100
+    },
+    "decoded_sample": "[CLS] had an amazing weekend with family! blessed and thankful < 3 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]"
+  },
+  {
+    "category": "Insult",
+    "input_text": "RT [USER]: You are the absolute dumbest and most pathetic clown on this site!!",
+    "token_count": 20,
+    "wordpiece_tokens": [
+      "rt",
+      "[",
+      "user",
+      "]",
+      ":",
+      "you",
+      "are",
+      "the",
+      "absolute",
+      "dumb",
+      "##est",
+      "and"
+    ],
+    "input_ids_first_12": [
+      101,
+      19387,
+      1031,
+      5310,
+      1033,
+      1024,
+      2017,
+      2024,
+      1996,
+      7619,
+      12873,
+      4355
+    ],
+    "attention_mask_first_12": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "special_tokens": {
+      "[CLS] id": 101,
+      "[SEP] id": 102,
+      "[PAD] id": 0,
+      "[UNK] id": 100
+    },
+    "decoded_sample": "[CLS] rt [ user ] : you are the absolute dumbest and most pathetic clown on this site!! [SEP] [PAD] [PAD]"
+  },
+  {
+    "category": "Threat",
+    "input_text": "I will find where you live and end you and your family! kitchen knife skull",
+    "token_count": 16,
+    "wordpiece_tokens": [
+      "i",
+      "will",
+      "find",
+      "where",
+      "you",
+      "live",
+      "and",
+      "end",
+      "you",
+      "and",
+      "your",
+      "family"
+    ],
+    "input_ids_first_12": [
+      101,
+      1045,
+      2097,
+      2424,
+      2073,
+      2017,
+      2444,
+      1998,
+      2203,
+      2017,
+      1998,
+      2115
+    ],
+    "attention_mask_first_12": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "special_tokens": {
+      "[CLS] id": 101,
+      "[SEP] id": 102,
+      "[PAD] id": 0,
+      "[UNK] id": 100
+    },
+    "decoded_sample": "[CLS] i will find where you live and end you and your family! kitchen knife skull [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]"
+  },
+  {
+    "category": "Hate Speech",
+    "input_text": "These dirty immigrants and muslims should be expelled from our country immediately",
+    "token_count": 12,
+    "wordpiece_tokens": [
+      "these",
+      "dirty",
+      "immigrants",
+      "and",
+      "muslims",
+      "should",
+      "be",
+      "expelled",
+      "from",
+      "our",
+      "country",
+      "immediately"
+    ],
+    "input_ids_first_12": [
+      101,
+      2122,
+      6530,
+      7489,
+      1998,
+      7486,
+      2323,
+      2022,
+      10016,
+      2013,
+      2256,
+      2406
+    ],
+    "attention_mask_first_12": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "special_tokens": {
+      "[CLS] id": 101,
+      "[SEP] id": 102,
+      "[PAD] id": 0,
+      "[UNK] id": 100
+    },
+    "decoded_sample": "[CLS] these dirty immigrants and muslims should be expelled from our country immediately [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]"
+  },
+  {
+    "category": "Harassment",
+    "input_text": "Nobody likes you loser, stop replying to everyone. Go away and never come back!!",
+    "token_count": 19,
+    "wordpiece_tokens": [
+      "nobody",
+      "likes",
+      "you",
+      "loser",
+      ",",
+      "stop",
+      "reply",
+      "##ing",
+      "to",
+      "everyone",
+      ".",
+      "go"
+    ],
+    "input_ids_first_12": [
+      101,
+      6343,
+      7777,
+      2017,
+      10916,
+      1010,
+      2644,
+      7514,
+      2075,
+      2000,
+      3071,
+      1012
+    ],
+    "attention_mask_first_12": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "special_tokens": {
+      "[CLS] id": 101,
+      "[SEP] id": 102,
+      "[PAD] id": 0,
+      "[UNK] id": 100
+    },
+    "decoded_sample": "[CLS] nobody likes you loser, stop replying to everyone. go away and never come back!! [SEP] [PAD] [PAD] [PAD]"
+  }
+]

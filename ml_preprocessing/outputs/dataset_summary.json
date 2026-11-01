@@ -1,0 +1,110 @@
+{
+  "total_records": 107613,
+  "train_records": 75329,
+  "val_records": 16142,
+  "test_records": 16142,
+  "leakage_audit": {
+    "leakage_free": true,
+    "train_val_overlap_count": 0,
+    "train_test_overlap_count": 0,
+    "val_test_overlap_count": 0
+  },
+  "imbalance_report": {
+    "num_classes": 5,
+    "classes": [
+      "Not Cyberbullying",
+      "Insult",
+      "Threat",
+      "Hate Speech",
+      "Harassment"
+    ],
+    "train_distribution": {
+      "Not Cyberbullying": {
+        "count": 20821,
+        "percentage": 27.64
+      },
+      "Insult": {
+        "count": 18834,
+        "percentage": 25.0
+      },
+      "Hate Speech": {
+        "count": 18273,
+        "percentage": 24.26
+      },
+      "Harassment": {
+        "count": 17141,
+        "percentage": 22.75
+      },
+      "Threat": {
+        "count": 260,
+        "percentage": 0.35
+      }
+    },
+    "val_distribution": {
+      "Not Cyberbullying": {
+        "count": 4461,
+        "percentage": 27.64
+      },
+      "Insult": {
+        "count": 4036,
+        "percentage": 25.0
+      },
+      "Hate Speech": {
+        "count": 3916,
+        "percentage": 24.26
+      },
+      "Harassment": {
+        "count": 3673,
+        "percentage": 22.75
+      },
+      "Threat": {
+        "count": 56,
+        "percentage": 0.35
+      }
+    },
+    "test_distribution": {
+      "Not Cyberbullying": {
+        "count": 4462,
+        "percentage": 27.64
+      },
+      "Insult": {
+        "count": 4036,
+        "percentage": 25.0
+      },
+      "Hate Speech": {
+        "count": 3916,
+        "percentage": 24.26
+      },
+      "Harassment": {
+        "count": 3673,
+        "percentage": 22.75
+      },
+      "Threat": {
+        "count": 55,
+        "percentage": 0.34
+      }
+    },
+    "balanced_class_weights": {
+      "Not Cyberbullying": 0.7235867633639115,
+      "Insult": 0.7999256663480939,
+      "Threat": 57.94538461538462,
+      "Hate Speech": 0.8244842116784327,
+      "Harassment": 0.8789335511347063
+    },
+    "balanced_class_weights_by_id": {
+      "0": 0.7235867633639115,
+      "1": 0.7999256663480939,
+      "2": 57.94538461538462,
+      "3": 0.8244842116784327,
+      "4": 0.8789335511347063
+    },
+    "pytorch_tensor_weights_ordered": [
+      0.7235867633639115,
+      0.7999256663480939,
+      57.94538461538462,
+      0.8244842116784327,
+      0.8789335511347063
+    ],
+    "recommendation": "Pass 'pytorch_tensor_weights_ordered' as torch.tensor(weights, dtype=torch.float) into nn.CrossEntropyLoss(weight=weights) to handle class imbalance, especially the underrepresented 'Threat' category."
+  }
+}

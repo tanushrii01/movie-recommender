@@ -1,0 +1,17 @@
+{
+  "total_analyzed": 20000,
+  "mean_length": 44.33745,
+  "std_length": 76.62550605051493,
+  "median_length (p50)": 30.0,
+  "p75_length": 45.0,
+  "p90_length": 70.0,
+  "p95_length": 106.0,
+  "p98_length": 204.02000000000044,
+  "p99_length": 328.0,
+  "max_length": 1966,
+  "coverage_at_64": 87.1,
+  "coverage_at_128": 96.09,
+  "coverage_at_160": 97.175,
+  "coverage_at_256": 98.63499999999999,
+  "recommended_max_length": 128
+}
